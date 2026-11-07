@@ -1,0 +1,9 @@
+__pycache__/
+*.pyc
+.venv/
+venv/
+models/
+face_landmarker.task
+*.part*
+*.syncnet.json
+*.syncnet-crops.mp4
