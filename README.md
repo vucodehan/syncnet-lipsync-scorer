@@ -2,7 +2,9 @@
 
 Scores how well a talking face matches its audio, on the CPU, so a batch of generated takes can be ranked before anyone watches them.
 
-![Median sync confidence for 53 takes across 9 benches. Higher is better. The benches are not named.](docs/media/scores.png)
+[![Bev, a character from my AI comedy series, singing to camera in one of the test takes. An 8 second silent preview.](docs/media/bev-sings.gif)](docs/media/bev-sings.mp4)
+
+*Bev, a character from my AI comedy series, singing in one of the test takes. This is an 8 second silent preview. [Play the full 17 second take with sound.](docs/media/bev-sings.mp4)*
 
 ## Why it exists
 
@@ -40,6 +42,8 @@ Checked against the unmodified reference pipeline on 11 sung takes:
 | An unrelated vocal | LSE-C fell from 4.67 to 0.59 |
 | Speed | About 20 s for a 16.7 s take on 8 threads. About 12 s per take in a batch |
 | Memory | About 0.75 GB peak |
+
+![Median sync confidence for 53 takes across 9 benches. Higher is better. The benches are not named.](docs/media/scores.png)
 
 The chart is 53 later takes in 9 benches. Median LSE-C runs from 4.59 to 7.39. Bench names and pictures are not included.
 
